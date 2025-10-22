@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+.body-bg {
+  background: linear-gradient(145deg, #0b141a, #1a2730);
+  color: #e2e8f0;
+}
+
+.widget-bg {
+  background-color: #14202a; /* slightly lighter card background */
+}
