@@ -1,5 +1,6 @@
 import React from "react";
 import TabsWidget from "./components/TabsWidget";
+import GalleryWidget from "./components/GalleryWidget";
 
 const App = () => {
   return (
