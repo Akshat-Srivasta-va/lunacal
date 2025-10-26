@@ -17,9 +17,7 @@ I enjoy working with JavaScript, React, Node.js, Express, and MongoDB, and I’m
 I’ve built projects such as an Expense Tracker and a Movie Booking System with real-time functionality.
 On the frontend, I focus on creating clean and responsive designs using HTML, CSS, JavaScript, and Tailwind CSS.`,
 
-    recommended: `I highly recommend taking advantage of our latest AI-powered analytics tools. They've been game-changers for many of my clients, helping them gain deeper insights into their customer behavior.
-
-Also, don't miss our upcoming webinar series on digital transformation. It's packed with practical strategies that you can implement right away.`,
+    recommended: `I recommend staying curious and building real-world projects — hands-on experience with technologies like React, Node.js, and MongoDB has taught me more than any tutorial ever could.`,
   };
 
   return (
