@@ -22,7 +22,7 @@ On the frontend, I focus on creating clean and responsive designs using HTML, CS
 
   return (
     <div >
-      <div className="flex gap-2 mb-6">
+      <div className="flex gap-12 mb-6 bg-black rounded-2xl">
         {tabs.map((tab) => (
           <button
             key={tab.id}
@@ -37,7 +37,7 @@ On the frontend, I focus on creating clean and responsive designs using HTML, CS
           </button>
         ))}
       </div>
-      <div className="bg-gray-700 rounded-xl  p-6">
+      <div className="rounded-xl  p-6">
         <p className="text-gray-300 leading-relaxed whitespace-pre-line">
           {content[activeTab]}
         </p>
