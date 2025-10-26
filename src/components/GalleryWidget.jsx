@@ -30,7 +30,7 @@ const GalleryWidget = () => {
   const visibleImages = images.slice(currentIndex, currentIndex + 3);
 
   return (
-    <div className="bg-gray-800 rounded-2xl p-6 shadow-xl">
+    <div>
       <div className="flex items-center justify-between mb-6">
         <h2 className="text-white text-xl font-semibold px-6 py-2 bg-gray-900 rounded-2xl">
           Gallery
@@ -72,7 +72,7 @@ const GalleryWidget = () => {
         {visibleImages.map((img, idx) => (
           <div
             key={currentIndex + idx}
-            className="aspect-square rounded-2xl overflow-hidden bg-gray-700 hover:scale-130 transition-transform duration-200 shadow-lg"
+            className="aspect-square rounded-2xl overflow-hidden bg-gray-700 hover:scale-120 hover:-rotate-3 transition-transform duration-200 shadow-lg"
           >
             <img
               src={img}

@@ -21,7 +21,7 @@ On the frontend, I focus on creating clean and responsive designs using HTML, CS
   };
 
   return (
-    <div className="bg-gray-800 rounded-2xl p-6 shadow-xl">
+    <div >
       <div className="flex gap-2 mb-6">
         {tabs.map((tab) => (
           <button
